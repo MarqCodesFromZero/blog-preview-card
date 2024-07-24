@@ -1,0 +1,73 @@
+@font-face {
+    font-family: figtree;
+    src: url(assets/fonts/Figtree-VariableFont_wght.ttf);
+}
+
+*{  margin: 0;
+    padding: 0;
+}
+
+body{background-color: hsl(47, 88%, 63%);
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+min-height: 100vh;
+font-family: figtree;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+  }
+
+.container{display: flex;
+flex-direction: column; 
+padding: 15px 20px;
+background-color: white;
+border-radius: 10px;
+max-width: 300px;
+box-shadow: 2px 2.5px 0px 4px;
+margin-bottom: 20px;
+}
+
+.preview-card{border-radius: 15px;
+    margin-bottom: 24px}
+
+.learning, 
+.username{font-weight: 800;}
+
+.learning{background-color:hsl(47, 88%, 63%);
+width: fit-content;
+padding: 5px 10px;
+border-radius: 4px;
+margin-bottom: 12px;}
+
+h1{font-size: 20px;
+font-weight: bolder;
+margin: 20px 0px;}
+
+p, .publish-date{
+    font-size: 14px;
+}
+
+p{
+    margin-bottom: 20px;
+}
+
+.user{display: flex;
+justify-content: start;
+align-items: center;
+gap: 12px;}
+
+.user-profile{
+    max-width: 40px;
+}
+
+
+.attribution { font-size: 11px; text-align: center; margin-top: auto; }
+    .attribution a { color: hsl(228, 45%, 44%); }
